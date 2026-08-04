@@ -1,0 +1,6 @@
+public class LearningCommitment{
+    public static void main(String[] args){
+        System.out.println("Track: java Development");
+        System.out.println("Daily Practice: 8 Hours");
+    }
+}
