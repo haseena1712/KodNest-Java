@@ -39,5 +39,6 @@ public class SwitchPractice {
                 System.out.println("Invalid number");
                 break;
         }
+        sc.close();
     }
 }
