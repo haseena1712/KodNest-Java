@@ -1,4 +1,4 @@
-class Student {
+class StudentApp {
 
     int roll;
     String name;
@@ -18,7 +18,7 @@ public class StudentApplication {
 
     public static void main(String[] args) {
 
-        Student s1 = new Student();
+        StudentApp s1 = new StudentApp();
 
         s1.roll = 1;
         s1.name = "Hassan";
