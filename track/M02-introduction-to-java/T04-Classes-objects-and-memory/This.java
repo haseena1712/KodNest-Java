@@ -8,13 +8,17 @@ class StudentThis {
         this.id = id;
         this.height = height;
     }
+    void display()
+    {
+        System.out.println(name);
+        System.out.println(id);
+        System.out.println(height);
+    }
 }
 public class This {
     public static void main(String[] args) {
         StudentThis s1=new StudentThis();
         s1.input("Haseena", 1, 5.2);
-        System.out.println(s1.name);
-        System.out.println(s1.id);
-        System.out.println(s1.height);
+        s1.display();
     }
 }
