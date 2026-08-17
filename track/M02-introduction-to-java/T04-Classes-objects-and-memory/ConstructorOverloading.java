@@ -28,11 +28,11 @@ public class ConstructorOverloading {
         }
         public static void main(String[] args) {
             ConstructorOverloading c1 = new ConstructorOverloading();
-            c1.display();
+                  c1.display();
             ConstructorOverloading c2 = new ConstructorOverloading("Haseena");
-            c2.display();
+                  c2.display();  
             ConstructorOverloading c3 = new ConstructorOverloading("Haseena",19,5.1);
-            c3.display();            
+            
         }
         
 }
